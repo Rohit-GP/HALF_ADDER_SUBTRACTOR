@@ -57,6 +57,7 @@ Half Adder
 ```
 module lab4ha (a, b, sum, car) ;
 input a,b;
+output sum,car;
 assign sum = a ^ b;
 assign car = a & b;
 endmodule
